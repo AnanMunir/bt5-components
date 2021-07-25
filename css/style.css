@@ -1,0 +1,40 @@
+.carousel-cus {
+	margin-right: 100px;
+    position: absolute;
+    right: 1%;
+    bottom: 11.25rem;
+    left: -47%;
+    padding-bottom: 1.25rem;
+}
+.p-cus {
+	margin-left: 100px;
+	font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+    line-height: 41px;
+}
+.h5-cus{
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.btn-custom{
+    background-color: #2d2d51;
+    color: white;
+}
+.btn-custom:hover{
+    background-color: transparent;
+    color: #2d2d51;
+    border-color: #2d2d51;
+}
+.card-group-custom{
+    margin-left:2px;
+    -webkit-box-shadow: 4px 4px 11px -3px rgba(105,90,105,1);
+-moz-box-shadow: 4px 4px 11px -3px rgba(105,90,105,1);
+box-shadow: 4px 4px 11px -3px rgba(105,90,105,1);
+}
+.body {
+  position: relative;
+}

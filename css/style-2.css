@@ -1,0 +1,60 @@
+.carousel-cus {
+	margin-right: -694px;
+    position: absolute;
+    right: 6%;
+    bottom: 1.25rem;
+    left: -47%;
+    padding-bottom: 1.25rem;
+}
+.p-cus {
+    margin-left: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    color: white;
+    line-height: 16px;
+}
+.h5-cus{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+.carousel-indicators .active {
+    opacity: 1;
+}
+.body {
+  position: relative;
+}
